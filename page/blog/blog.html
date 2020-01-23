@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1621313_sha86sxomrs.css">
+    <link rel="stylesheet" href="./blog.css">
+</head>
+<body>
+<div class="navbar">
+  <div class="navbar-item navbar-brand"><a href="#">ProMeDent</a></div>
+  <!-- <div class="navbar-item" style="font-size: 18px;"><a href="#">home</a></div> -->
+  <form action="" class="navbar-item navbar-item-right">
+    <input type="text">
+    <input type="submit" value="search">
+  </form>
+  <div class="navbar-item navbar-item-right"><a href="#">login</a></div>
+</div>
+<div id="blog">
+  <div class="blog-header">
+    <h2 class="blog-title">{{title}}</h2>
+    <p>{{author}}</p>
+    <p>{{time}}</p>
+    <hr>
+  </div>
+  <div class="blog-body">
+    <p>{{content}}</p>
+  </div>
+  <hr>
+  <div class="blog-footer">
+    <div class="blog-favorite">
+      <i class="iconfont icon-favorite"></i>
+      <div>
+        0
+      </div>
+    </div>
+    <div class="blog-like">
+      <i class="iconfont icon-like1"></i>
+      <div>
+        0
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
+<!-- <script src="https://cdn.staticfile.org/vue/2.6.10/vue.min.js"></script> -->
+<script src="https://cdn.staticfile.org/vue/2.6.10/vue.js"></script>
+<script src="./blog.js"></script>
+</body>
+</html>
