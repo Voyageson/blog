@@ -15,6 +15,13 @@ var data = {
     content: 'this is blog content'
 }
 
+$.get({
+    url: '/blog',
+    function(res){
+        console.log(res);
+    }
+})
+
 blog.title = data.title
 blog.author = data.author
 blog.time = data.time
